@@ -1,0 +1,600 @@
+h2, h3, h4, h5, h6 ,h1{
+  /* font-family: "Montserrat"; */
+  font-weight: 700;
+  color:#900c3f;
+  font-family: 'Quicksand', sans-serif;
+}
+a { color: inherit; }
+
+p{
+  /* font-family: "Montserrat"; */
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+}
+body {
+  padding-top: 56px;
+  font-family: "Montserrat";
+     background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/* Dotted border */
+hr.dotted {
+  /* border-top: 3px dotted #EAF6F6; */
+  border: dotted #ff5733 6px;
+  border-bottom: none;
+  width: 10%;
+}
+
+ul.{
+  list-style-position: inside;
+}
+.imge{
+  /* width: 700px;
+  height: 800px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.ab{
+  /* width: 20%; */
+  height: 50px;
+  width: 30px;
+}
+.alum{
+  width: 70%;
+}
+.down{
+  /*padding-left: 8%;*/
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cd{
+  /*padding-left: 8%;*/
+    
+  margin-top: 30%;
+  margin-bottom: auto;
+  margin-left: 50%;
+  margin-right: auto;
+}
+.dow{
+  padding-right: 5%;
+}
+.Download-button {
+  /* margin: 1% 5% 1% 1%;
+   padding-top: 10%;*/
+ }
+.work{
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cap{
+  /* width:80%; */
+  height: 400px;
+  width: 400px;
+}
+.abc{
+  height: 300px;
+  width:300px;
+
+}
+.blog{
+width: 500px;
+  height:  300px;
+}
+
+/* nav bar */
+.navcol{
+  background-color: #c70039;
+
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.carousel-item {
+  height: 70vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* Sustainable images */
+.sus{
+  padding: 2% 10% 0 10%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.simg{
+  height: 100px;
+  width: 100px;
+}
+
+.sbox {
+  text-align: center;
+  padding: 1%;
+}
+#vision {
+  padding: 0 10% 2% 10%;
+  /* background-color: #fff; */
+  position: relative;
+  z-index: 1;
+}
+.vision-box {
+  text-align: center;
+  padding: 1%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.cen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 600px;
+  height: 300px; */
+  width: 40%;
+
+}
+.grp{
+  align-items: center;
+  padding-left: 350px;
+}
+.a-l {
+  width: 50%;
+  /* margin: 10px 10px 10px; */
+}
+/* about image */
+#aimage {
+  background-color: #ffcd3c;
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+.a-logo {
+  width: 40%;
+  margin: 10px 10px 10px;
+}
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+/* Campaigns section */
+.camp {
+  text-align: center;
+  /* background-color: #e4f9ff; */
+  color: #fff;
+}
+.carousel-item {
+  padding: 1% 2% 1%;
+  /* top and bottom right and left  */
+}
+.t-img {
+  /* width: 30%; */
+  height: 450px;
+  width: 600px;
+  margin: 10px 10px 10px 10px;
+}
+
+
+  /* Achievements */
+  #achievements{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+  .ach-box {
+    text-align: center;
+    padding: 1%;
+  }
+  .alogo {
+    width: 50%;
+    /* margin: 10px 10px ; */
+    height: 300px;
+    width: 300px;
+  }
+  /* Sustainable images */
+  #partner{
+    /* padding: 2% 10% 0 10%; */
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+  .paimg{
+    height: 120px;
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .paim{
+    height: 120px;
+    width: 220px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .raimg{
+    height: 200px;
+    width: 900px;
+  }
+  .sbox {
+    text-align: center;
+    padding: 1%;
+  }
+  /* * team section */
+  .team{
+     padding: 2% 2%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+  .team-box {
+    text-align: center;
+    padding: 1%;
+  }
+  .tlogo {
+    height: 150px;
+    width: 150px;
+    margin: 1px 1px;
+  }
+  /* Achievements */
+
+  .alogo {
+    /* width: 50%; */
+    /* margin: 10px 10px ; */
+    height: 200px;
+    width: 400px;
+    /* padding: 2% 1% 2% 1%; */
+  }
+  #cta {
+
+    color: #FFF;
+    padding: 4% 20%;
+    text-align: left;
+
+  }
+label{
+  color: black;
+}
+  .cta-head {
+    font-family: "Montserrat";
+    font-weight: 900;
+    line-height: 1.5;
+    color: black;
+  }
+  .btn-sign{
+    margin: 1% 1%;
+  }
+  #features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+
+  .features-box {
+    text-align: center;
+    padding: 5%;
+  }
+
+.icon {
+  margin: 1rem;
+  color: #ffc300;
+}
+.ico{
+  color: #1b6ca8;
+}
+
+.icon:hover {
+  color: #ff9234;
+}
+.foot{
+    /* padding: 1% 1%; */
+    text-align: center;
+    background-color: #c70039;
+}
+.soc-icon {
+  margin: 10px 10px;
+  color: white;
+}
+
+.contact1-pic {
+  width: 296px;
+  align-items: left;
+}
+
+.contact1-pic img {
+  max-width: 100%;
+  align:left;
+}
+
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%;
+ } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+ul, ol {
+    list-style: none
+}
+.main {
+    width: 100%;
+    -webkit-margin: auto;
+    padding-top: 20px;
+    overflow: hidden;
+    color: #fff
+}
+.slider {
+    position: relative
+}
+.slider .slider-parent {
+    padding: 0;
+    display: flex
+}
+.slider .slider-parent .images-list {
+    background-size: cover;
+}
+.slider .slider-parent .images-list:first-of-type, .slider .slider-parent .images-list:last-of-type {
+    background-image: url(https://images.pexels.com/photos/462146/pexels-photo-462146.jpeg)
+}
+.slider .slider-parent .images-list:nth-of-type(2) {
+    background-image: url(https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg)
+}
+.slider .slider-parent .images-list:nth-of-type(3) {
+    background-image: url(https://images.pexels.com/photos/1107717/pexels-photo-1107717.jpeg)
+}
+.slider .slider-parent .images-list:nth-of-type(4) {
+    background-image: url(https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg)
+}
+.slider .slider-parent .images-list:nth-of-type(5) {
+    background-image: url(https://images.pexels.com/photos/462162/pexels-photo-462162.jpeg)
+}
+.slider .buttom-circles {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    bottom: 10px
+}
+.slider .buttom-circles .buttom-circles-list {
+    display: inline-block
+}
+.slider .buttom-circles .buttom-circles-list:hover .fa:before, .slider .buttom-circles .buttom-circles-list.slider-active .fa:before {
+    content: "\f111";
+}
+.slider > .fa {
+    position: absolute;
+    top: 45%
+}
+.slider > .fa:first-of-type { right: 5px}
+.slider > .fa:last-of-type { left: 5px}
+.slider .fa {
+    text-shadow: 5px 5px 5px #555;
+    cursor: pointer
+}
+ 
+@media(min-width: 100px) and (max-width: 767px) {
+    .slider > .fa { font-size: 25px }
+    .slider .buttom-circles .buttom-circles-list { visibility: hidden }
+}
+@media(min-width: 768px) and (max-width: 991px) { 
+    .slider > .fa { font-size: 50px }
+    .slider .buttom-circles .buttom-circles-list { visibility: hidden }
+}
+@media(min-width: 992px) and (max-width: 1199px) { 
+    .slider > .fa { font-size: 75px }
+    .slider .buttom-circles .buttom-circles-list { font-size: 17px }
+}
+@media(min-width: 1200px) { 
+    .slider > .fa { font-size: 100px }
+    .slider .buttom-circles .buttom-circles-list { font-size: 25px }
+}
+
+
+* {
+    padding:0;
+    margin:0
+}
+.social-icons {
+	list-style: none;
+	width: 50px;
+  position: fixed;
+  top:15%;
+    font-size: 30px;
+}
+.social-icons li {
+	float:none;
+  display: block
+}
+.social-icons li a {
+    display:inline-block;
+    width:50px;
+    height:50px;
+    float:left;
+    overflow:hidden
+}
+.social-icons li a i {
+    padding:13px
+}
+.facebook {
+    color:#3d5b99
+}
+.facebook:hover {
+    color:#fff;
+  	background-color: #3d5b99
+}
+.twitter {
+    color:#00aced
+}
+.twitter:hover {
+    color:#fff;
+  	background-color: #00aced
+}
+.youtube {
+    color:#e64a41
+}
+.youtube:hover {
+    color:#fff;
+	  background-color: #e64a41
+}
+.linkedin {
+    color:#0073a4
+}
+.linkedin:hover {
+    color:#fff;
+  	background-color: #0073a4
+}
+.instagram {
+    color:#e25714
+}
+.instagram:hover {
+    color:#fff;
+  	background-color: #e25714
+}
+.facebook,
+.twitter,
+.youtube,
+.linkedin,
+.instagram {
+    -o-transition:.5s ease;
+  	-ms-transition:.5s ease;
+  	-moz-transition:.5s ease;
+  	-webkit-transition:.5s ease;
+  	transition: .5s ease
+}
+.facebook:hover,
+.twitter:hover,
+.youtube:hover,
+.linkedin:hover,
+.instagram:hover {
+    width:50px
+}
+
+.footer
+{
+  background:#c70039;
+height: 50px;
+margin-top: 50px;
+color: #fff;
+padding-top: 10px;
+}
+
+
+.test{
+   /* background-color: black;*/
+    text-align: center;
+    overflow-x: scroll;
+        
+}
+
+.collab{
+    left: -25px;
+    display: none;
+}
+
+.collInfo{
+    width: 60%;
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.test:hover{
+    display: block;
+    opacity: 1;
+    bottom: -110px;
+    pointer-events: auto;
+}
+
+.trans{
+    -webkit-transition: all -3.5s;
+}
+
+#right-wheel,#left-wheel{
+    animation: wheel 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+    
+}
+
+#man-bike{
+    animation: bike 2s linear infinite; 
+    transform-origin: bottom;
+}
+
+@keyframes wheel{
+    from{
+        transform: translateX(-20px);
+        transform: rotateZ(0deg);
+    }
+    to{
+                transform: translateX(700px);
+                /*transform: rotateZ(360deg);*/
+    }
+}
+
+@keyframes bike{
+    from{
+        transform: translateX(-900px);
+    }
+    to{
+        transform: translateX(700px);
+    }
+}
+
+body::-webkit-scrollbar {
+  width: 18px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: lightblue;        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: olivedrab;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid lightblue;  /* creates padding around scroll thumb */
+}
+
+div::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+div::-webkit-scrollbar-track {
+  background: orange;        /* color of the tracking area */
+}
+div::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid orange;  /* creates padding around scroll thumb */
+}

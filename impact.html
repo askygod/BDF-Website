@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Dauntless Organization | New Delhi | NGO | UN SDG's | Quality Education</title>
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+  <!-- <script src="utils.js"></script> -->
+
+  <script>
+    window.onload = function() {
+      var chart = new CanvasJS.Chart("chartContainer1", {
+        animationEnabled: true,
+        title: {
+          text: "NO. OF STUDENTS"
+        },
+        axisX: {
+
+          interval: 1
+        },
+        axisY: {
+          includeZero: false
+        },
+        data: [{
+          type: "spline",
+          name: "Age 4-8",
+          dataPoints: [{
+              label: "1st Month",
+              y: 50
+            },
+            {
+              label: "2nd Month",
+              y: 70
+            },
+            {
+              label: "3rd Month",
+              y: 100
+            },
+            {
+              label: "4th Month",
+              y: 120
+            },
+            {
+              label: "5th Month",
+              y: 150
+            },
+            {
+              label: "6th Month",
+              y: 190
+            }
+          ]
+        }, {
+          type: "spline",
+          name: "Age 9-12",
+          dataPoints: [{
+              label: "1st Month",
+              y: 5
+            },
+            {
+              label: "2nd Month",
+              y: 20
+            },
+            {
+              label: "3rd Month",
+              y: 60
+            },
+            {
+              label: "4th Month",
+              y: 100
+            },
+            {
+              label: "5th Month",
+              y: 140
+            },
+            {
+              label: "6th Month",
+              y: 210
+            }
+          ]
+        }, {
+          type: "spline",
+          name: "Age 13-16",
+          dataPoints: [{
+              label: "1st Month",
+              y: 0
+            },
+            {
+              label: "2nd Month",
+              y: 5
+            },
+            {
+              label: "3rd Month",
+              y: 20
+            },
+            {
+              label: "4th Month",
+              y: 40
+            },
+            {
+              label: "5th Month",
+              y: 60
+            },
+            {
+              label: "6th Month",
+              y: 100
+            }
+          ]
+        }]
+      });
+      chart.render();
+
+      var chart = new CanvasJS.Chart("chartContainer2", {
+        animationEnabled: true,
+        title: {
+          text: "BOYS-GIRLS RATIO"
+        },
+        axisX: {
+
+          interval: 1
+        },
+        axisY: {
+          includeZero: false
+        },
+        data: [{
+          type: "spline",
+          name: "Age 4-8",
+          dataPoints: [{
+              label: "1st Month",
+              y: 55
+            },
+            {
+              label: "2nd Month",
+              y: 85
+            },
+            {
+              label: "3rd Month",
+              y: 130
+            },
+            {
+              label: "4th Month",
+              y: 180
+            },
+            {
+              label: "5th Month",
+              y: 200
+            },
+            {
+              label: "6th Month",
+              y: 300
+            }
+          ]
+        }, {
+          type: "spline",
+          name: "Age 9-12",
+          dataPoints: [{
+              label: "1st Month",
+              y: 0
+            },
+            {
+              label: "2nd Month",
+              y: 10
+            },
+            {
+              label: "3rd Month",
+              y: 50
+            },
+            {
+              label: "4th Month",
+              y: 80
+            },
+            {
+              label: "5th Month",
+              y: 150
+            },
+            {
+              label: "6th Month",
+              y: 200
+            }
+          ]
+        }]
+      });
+      chart.render();
+
+      var chart = new CanvasJS.Chart("chartContainer3", {
+        animationEnabled: true,
+        title: {
+          text: "ACADEMIC IMPROVEMENT"
+        },
+        axisX: {
+
+          interval: 1
+        },
+        axisY: {
+          includeZero: false
+        },
+        data: [{
+          type: "spline",
+          name: "Age 4-8",
+          dataPoints: [{
+              label: "1st Day",
+              y: 20
+            },
+            {
+              label: "1st Month",
+              y: 40
+            },
+            {
+              label: "2nd Month",
+              y: 50
+            },
+            {
+              label: "3rd Month",
+              y: 90
+            },
+            {
+              label: "4th Month",
+              y: 55
+            },
+            {
+              label: "5th Month",
+              y: 45
+            },
+            {
+              label: "6th Month",
+              y: 80
+            },
+            {
+              label: "7th Month",
+              y: 90
+            }
+          ]
+        }, {
+          type: "spline",
+          name: "Age 9-12",
+          dataPoints: [{
+              label: "1st Day",
+              y: 5
+            },
+            {
+              label: "1st Month",
+              y: 25
+            },
+            {
+              label: "2nd Month",
+              y: 45
+            },
+            {
+              label: "3rd Month",
+              y: 75
+            },
+            {
+              label: "4th Month",
+              y: 40
+            },
+            {
+              label: "5th Month",
+              y: 55
+            },
+            {
+              label: "6th Month",
+              y: 65
+            },
+            {
+              label: "7th Month",
+              y: 75
+            }
+          ]
+        }, {
+          type: "spline",
+          name: "Age 13-16",
+          dataPoints: [{
+              label: "1st Day",
+              y: 0
+            },
+            {
+              label: "1st Month",
+              y: 0
+            },
+            {
+              label: "2nd Month",
+              y: 25
+            },
+            {
+              label: "3rd Month",
+              y: 30
+            },
+            {
+              label: "4th Month",
+              y: 35
+            },
+            {
+              label: "5th Month",
+              y: 40
+            },
+            {
+              label: "6th Month",
+              y: 40
+            },
+            {
+              label: "7th Month",
+              y: 55
+            }
+          ]
+        }]
+      });
+      chart.render();
+
+    }
+  </script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <br />
+  <img class="center" src="images/sdg.png" alt="title-img">
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark navcol fixed-top">
+    <div class="container">
+      <a class="navbar-brand navcol dow" href="index.html"><img src="impImage/logon.png" class="ab"> Be Dauntless</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle navcol" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+              <a class="dropdown-item" href="about.html">Our Vision</a>
+              <a class="dropdown-item" href="team.html">Team</a>
+              <a class="dropdown-item" href="recog.html">Recognition</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navcol" href="services.html">Programs</a>
+          </li>
+          <!--<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navcol" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Programs
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+            <a class="dropdown-item" href="services.html">Nurturing Early Learners</a>
+            <a class="dropdown-item" href="services.html">Language & Literacy</a>
+            <a class="dropdown-item" href="services.html">Observing & Learning</a>
+            <a class="dropdown-item" href="services.html">Socio-Emotional Development</a>
+          </div>
+        </li>-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle navcol" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Campaigns
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+              <a class="dropdown-item" href="camp1.html">Kalaakaar Kee Kala</a>
+              <a class="dropdown-item" href="camp2.html">Student of the Day</a>
+              <a class="dropdown-item" href="camp3.html">Sarvapratham Svasth</a>
+              <a class="dropdown-item" href="camp4.html">Meal to Heal</a>
+              <a class="dropdown-item" href="camp5.html">Paryaavaran Prem</a>
+              <a class="dropdown-item" href="camp6.html">Storytelling</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navcol" href="impact.html">Impact</a>
+          </li>
+          <!--<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navcol" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Get Involved
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+            <a class="dropdown-item" href="inv.html">Join Us</a>
+            <a class="dropdown-item" href="donate.html">Donate</a>
+            <a class="dropdown-item" href="inv.html">Career</a>
+            <a class="dropdown-item" href="inv.html">Partner with Us</a>
+            <a class="dropdown-item" href="inv.html">Conatct</a>
+          </div>
+        </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Get<em style="color:#900c3f;">.</em>Involved</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog-post.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="presence.html">Presence</a>
+          </li>
+          <li class="nav-item down">
+            <button onclick="myFunction()" type="button" class="btn btn-outline-warning Download-button">Donate</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <script>
+    function myFunction() {
+      alert("Bank Account Name: BE DAUNTLESS FOUNDATION" + "\n" + "Account Number: 9180002100014925" + "\n" + "Bank IFSC Number: PUNB0754600" + "\n" + "Bank Branch: Punjab National Bank, Faridabad, Charmwood Village" + "\n" + "or" + "\n" +
+        "Google Pay/ Paytm/ PhonePe at +91-8750308123");
+    }
+  </script>
+
+
+  <h1 class="my-4 text-center">IMPACT</h1>
+  <div class="container">
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <div class="row">
+      <div class="col-6">
+        <div id="chartContainer1" style="width: 100%; height: 300px;display: inline-block;"></div>
+      </div>
+      <div class="col-6" style="background:#f7f5dd;">
+        <br>
+        <p class="text-center"> <b style="color:blue">--Age 4-8</b> <b style="color:red">--Age 9-12</b> <b style="color:green">--Age 13-16</b> </p>
+        <br>
+        The graph discusses the involvement of students increasing over a period of six months in varying age groups (4-8, 9-12 & 13-16).
+        Students in the age group 9-12 have improved their scores from 0-200 in just six months indicating a rapid growth over a short timespan.
+      </div>
+    </div>
+    <br><br>
+
+    <div class="row">
+      <div class="col-6" style="background:#f7f5dd;">
+        <br>
+        <p class="text-center"> <b style="color:blue">-- Boys</b> <b style="color:red">-- Girls</b></p>
+        <br>
+        The graphical representation explains the proportion of the number of boys to girls enrolling for schooling under the guidance
+        of Be Dauntless Foundation leading to a gradual increase over a six month period. The slow and steady rise in enrollment is a
+        progressive indicator of our effective training and education.
+      </div>
+
+      <div class="col-6">
+        <div id="chartContainer2" style="width: 100%; height: 300px;display: inline-block;"></div>
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+      <div class="col-6">
+        <div id="chartContainer3" style="width: 100%; height: 300px;display: inline-block;"></div>
+      </div>
+      <div class="col-6" style="background:#f7f5dd;">
+        <br>
+        <p class="text-center"> <b style="color:blue">--Age 4-8</b> <b style="color:red">--Age 9-12</b> <b style="color:green">--Age 13-16</b> </p>
+        <br>
+        The academic improvement graph represents the three groups of children (ages 4-8, 9-12, and 13-16) who underwent considerable
+        progress in their performance in academia and related subjects. The results indicate that the organization has successfully achieved
+        a humungous change in spreading quality education among the slum communities.
+      </div>
+    </div>
+    <br><br>
+  </div>
+
+
+
+  <!-- Footer -->
+  <footer class="py-5 foot">
+    <div class="container">
+      <!-- <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p> -->
+      <a href="https://www.facebook.com/Dauntlessdotin"><i class="soc-icon fab fa-facebook-f fa-2x"></i></a>
+      <a href="https://twitter.com/dauntlessdotins"><i class="soc-icon fab fa-twitter fa-2x"></i></a>
+      <a href="https://www.instagram.com/dauntlessdotin/"><i class="soc-icon fab fa-instagram fa-2x"></i></a>
+      <a href="https://www.linkedin.com/company/dauntlessdotin/"><i class="soc-icon fab fa-linkedin-in fa-2x"></i></a>
+      <a href="https://www.youtube.com/channel/UC7rOF0LQmhjGbSLZdT1goLg/"><i class="soc-icon fab fa-youtube fa-2x"></i></a>
+      <p class="m-0 text-center text-white"> <a href="mailto: DAUNTLESSDOTIN@GMAIL.COM" style="color:white;">Email us</a></p>
+      <p class="m-0 text-center text-white">+91-8750308123</p>
+      <p class="m-0 text-center text-white">© Be Dauntless Foundation</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
